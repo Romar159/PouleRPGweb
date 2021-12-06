@@ -1,4 +1,4 @@
-#Site de PouleRPG
+Site de PouleRPG
 
 
 **Bienvenue sur le GitHub du site du bot Discord PouleRPG.**<br/>
@@ -10,7 +10,7 @@ Il n'y a pas grand chose à voir, du code quoi ! :)<br/>
 	-> Celles d'un joueur simple  
 	-> Celles d'un maître de faction  
 - Les avantages que l'on a avec certains rôles ;  
-~~- Les easter eggs présents ;~~  
+- ~~Les easter eggs présents ;~~  
 - Etc... etc...  
   
   
