@@ -22,15 +22,17 @@ body {
 
 .codeblock {
     height: 18px; 
-    width: 25.4518%; 
+    /*width: 50%;*/ 
     border-collapse: collapse; 
     background-color: black;
     text-align: center;
     box-shadow: 0 0 10px rgb(59, 59, 59), 0 0 5px rgb(59, 59, 59), 0 0 5px rgb(59, 59, 59), 0 0 5px rgb(59, 59, 59), 0 0 5px rgb(59, 59, 59), 0 0 5px rgb(59, 59, 59), 0 0 5px rgb(59, 59, 59);
-
 }
 
 .code-text {
+    margin-left:10px;
+    margin-right:10px;
+    
     background-color: #000000; 
     color: #00ff00;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
