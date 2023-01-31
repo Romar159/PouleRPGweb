@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Préférences - Commande</title>
+        <link rel="stylesheet" type="text/css" href="../../public/wiki_styles.css">
+        <link rel="stylesheet" type="text/css" href="../../public/menu.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <section class="top-nav">
+            <div>
+              <a href="../sommaire.html" style="color:#fff; text-decoration:none; font-weight:bold;">PouleRPG Wiki</a>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+              <li><a href="#">Présentation</li> <!-- Main page -->
+              <li><a href="../sommaire.html">Wiki</a></li> <!-- Référence les commandes et comment les utiliser techniquement-->
+              <li><a href="#">Explications</a></li> <!-- Explication des fonctionnalités, les points, les events, le côté RPG et stratégique-->
+              <li><a href="#">Histoire</a></li> <!-- Backstory et historique des évènements RP du serveur, plus Mise en situation de l'environnement-->
+              <li><a href="#">Discord</a></li> <!-- Liens -->
+            </ul>
+          </section>
+
+      <p>&nbsp;</p>
+      <h1 class="title">Préférences</h1>
+      <p class="pcenter"><strong><em>Commande Syst&egrave;me</em></strong></p>
+      <p class="pcenter">&nbsp;</p>
+
+      <h3 class="smalltitle"><span>Description</span></h3>
+      <p>Cette commande permet d'afficher et changer ses préférences de jeu.</p>
+      
+      <h3 class="smalltitle"><span>Utilisation</span></h3>
+      <ol>
+        <ol>
+          <li>
+            <strong>Afficher la liste de tous les paramètres disponibles</strong><br /><br />
+            <table class="codeblock" border="1">
+              <tbody>
+                <tr>
+                  <td><code><span class="code-text">p&lt;préférences</span></code></td>
+                </tr>
+              </tbody>
+            </table>
+            <hr />
+          </li>
+
+          <li>
+            <strong>Modifier un paramètre</strong><br /><br />
+            <table class="codeblock" border="1">
+              <tbody>
+                <tr>
+                  <td><code><span class="code-text">p&lt;préférences &lt;option&gt; &lt;choix&gt;</span></code></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <br />Exemple:<br />
+            <strong>Modifie la préférence ArmeFavorite pour qu'il soit paramétré sur "épée". (Votre arme favorite devient donc l'épée)</strong>
+              <table class="codeblock" border="1">
+                <tbody>
+                  <tr>
+                    <td><code><span class="code-text">p&lt;préférence armeFavorite épée</span></code></td>
+                  </tr>
+                </tbody>
+              </table>
+          </li>
+        </ol>
+      </ol>
+      <h3 class="smalltitle"><span><br />Alias</span></h3>
+      <ul class="aliases">
+        <li><em><code>preferences</code></em></li>
+        <li><em><code>p</code></em></li>
+      </ul> 
+    </body>
+</html>
