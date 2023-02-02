@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Expédition - Commande</title>
+        <title>Infos Faction - Commande</title>
         <link rel="stylesheet" type="text/css" href="../../public/wiki_styles.css">
         <link rel="stylesheet" type="text/css" href="../../public/menu.css">
         <meta charset="utf-8">
@@ -26,22 +26,23 @@
           </section>
 
       <p>&nbsp;</p>
-      <h1 class="title">Expédition</h1>
+      <h1 class="title">Infos Faction</h1>
       <p class="pcenter"><strong><em>Commande GeneralRPG</em></strong></p>
       <p class="pcenter">&nbsp;</p>
 
       <h3 class="smalltitle"><span>Description</span></h3>
-      <p>Partez en expédition à travers l'Empire pour dénicher des trésors, des Poyn et gagner en expérience. Attention toutefois aux dangers des territoires ennemis.</p>
+      <p>Affiche de nombreuses informations concernant les faction. Pour afficher certaines informations sensibles, la commande doit être effectué dans le salon de la faction en question.</p>
       
       <h3 class="smalltitle"><span>Utilisation</span></h3>
       <ol>
         <ol>
+
           <li>
             <strong>Synthaxe</strong><br /><br />
             <table class="codeblock" border="1">
               <tbody>
                 <tr>
-                  <td><code><span class="code-text">p&lt;expédition &lt;poyn&gt; [localisation]</span></code></td>
+                  <td><code><span class="code-text">p&lt;infosfaction [faction]</span></code></td>
                 </tr>
               </tbody>
             </table>
@@ -49,11 +50,11 @@
           </li>
 
           <li>
-            <strong>Partez en expédition sur le territoire de votre faction avec un certain nombre de poyn (dans cet exemple 30 Poyn)</strong><br /><br />
+            <strong>Affiche les informations de votre faction</strong><br /><br />
             <table class="codeblock" border="1">
               <tbody>
                 <tr>
-                  <td><code><span class="code-text">p&lt;expédition 30</span></code></td>
+                  <td><code><span class="code-text">p&lt;infosfaction</span></code></td>
                 </tr>
               </tbody>
             </table>
@@ -61,30 +62,25 @@
           </li>
 
           <li>
-            <strong>Partez en expédition sur le territoire d'une faction avec 50 poyn.</strong><br /><br />
+            <strong>Affiche les informations d'une faction. Ici Daïros</strong><br /><br />
             <table class="codeblock" border="1">
               <tbody>
                 <tr>
-                  <td><code><span class="code-text">p&lt;expédition 50 [localisation]</span></code></td>
+                  <td><code><span class="code-text">p&lt;infosfaction daïros</span></code></td>
                 </tr>
               </tbody>
             </table>
-            <strong>Exemple : partez en éxpédition sur le territoire de Lyomah avec 50 or.</strong><br /><br />
-            <table class="codeblock" border="1">
-              <tbody>
-                <tr>
-                  <td><code><span class="code-text">p&lt;expédition 50 lyomah</span></code></td>
-                </tr>
-              </tbody>
-            </table>
+            <hr />
+          </li>
 
           </li>
         </ol>
       </ol>
       <h3 class="smalltitle"><span><br />Alias</span></h3>
       <ul class="aliases">
-        <li><em><code>e</code></em></li>
-        <li><em><code>expedition</code></em></li>
+        <li><em><code>infofaction</code></em></li>
+        <li><em><code>infosfac</code></em></li>
+        <li><em><code>infofac</code></em></li>
       </ul> 
     </body>
 </html>
